@@ -1,7 +1,7 @@
 # Project---Adventure-Works-2019
 A study on Adventure Works 2019 relational database.
 In this project SQL is used for Data cleaning and Data manipulation. Python PandaS, Matplotlib for Data Visualization. SQL SSMS for Data Transformation. We were given task to find answers for the following questions related to Adventure Works database.
-Question 1 :  What is the relationship between Country and Revenue?
+Question 1 :  What is the regional sales in the best performing country 
 
 Firstly, we need to find the data of sales per country in the Sales.SalesTerritory table, Sales YTD, Sales Last Year columns and define the highest performing country by SQL using SUM(), MAX() and GROUP BY function. Create a view for that. 
 Secondly, calculate the sales by regions of the highest performing country in SQL using SUM(), GROUP BY() and WHERE. At this step, we have the table we needed. Create a view for this. Called Regional_Sales
